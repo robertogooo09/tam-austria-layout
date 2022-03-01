@@ -1,0 +1,296 @@
+body {
+  font-family: "Montserrat";
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2rem;
+}
+
+
+
+
+.navbar {
+  position: relative;
+  padding: 0;
+  background: #4FD3C4;
+
+}
+
+.navbar-brand {
+  margin-top: 0;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-right: 10%;
+}
+
+.nav-link {
+
+  letter-spacing: 2px;
+  font-size: 1rem;
+
+}
+
+.nav-link:hover {
+  font-size: 1.2rem;
+}
+
+.nav-slides {
+  background: black;
+}
+.carousel1 {
+  position: relative;
+
+}
+.car-img {
+  max-width: 100%;
+  opacity: 0.6;
+}
+
+.footer-section {
+  height: 200px;
+  padding-top: 5%;
+  text-align: center;
+  border-top: 2px solid;
+}
+
+.g-thumb {
+  padding: 5% 5%;
+  text-align: center;
+}
+
+.thumb-pic {
+  margin: 3%;
+  box-shadow: 3px 3px 10px;
+}
+
+
+.bio-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 85%;
+  text-align: center;
+  background: #ECECEC;
+  animation: animWrapper 1s ease 0s 1 normal forwards;
+}
+
+.bio-img-profpic {
+  width: 100%;
+  height: auto;
+}
+
+.bio-life-col1 {
+  text-align: left;
+  padding-top: 6%;
+}
+
+.bio-life-col1 h1 {
+  font-size: 5rem;
+}
+
+.bio-life-col1 p {
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.bio-life-col2 {
+  text-align: right;
+  padding: 0 2%
+}
+
+.bio-life-col2 p {
+  font-style: normal;
+  font-size: 1rem;
+}
+
+
+
+.books-card {
+  color: white;
+  padding: 3% 10%;
+  background: #4FD3C4;
+}
+
+.feat-mag {
+  padding-top: 4%;
+  margin: 1%;
+}
+
+.dangal-filipino-banner-img {
+  width: 100%;
+}
+@keyframes animWrapper {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.inquiries{
+  animation: animContact 1s ease 0s 1 normal forwards;
+}
+@keyframes animContact {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  55% {
+    animation-timing-function: ease-in;
+    transform: translateY(-65px);
+  }
+
+  72% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  81% {
+    animation-timing-function: ease-in;
+    transform: translateY(-28px);
+  }
+
+  90% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    transform: translateY(-8px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+}
+
+.dangal-filipino-details {
+  padding: 1% 5% 1% 5%;
+  line-height: 1.5rem;
+  margin-top: 3%;
+}
+
+.dangal-filipino-details p {
+  font-size: 1rem;
+}
+
+.founding {
+  width: 100%;
+}
+
+
+
+.founding-title {
+  padding-top: 10%;
+  text-align: left;
+}
+.board-director{
+  color: white;
+  padding: 3% 10%;
+  background: #4FD3C4;
+}
+.board-radius{
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px black;
+}
+.board-title{
+  margin-bottom: 3%;
+}
+
+#carouselExampleCaptions .carousel-item img{
+  object-fit: cover;
+  object-position: center;
+  height: 70vh;
+  overflow: hidden;
+}
+#carouselExampleCaptions .carousel-item h5{
+  display: inline-block;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  font-style: italic;
+}
+
+
+.donations{
+  color: white;
+  margin-top: 5%;
+  padding: 5% 10% 5% 10%;
+  line-height: 2rem;
+  background: #4FD3C4;
+  box-shadow: 10px;
+}
+.donations p{
+  font-size: 1rem;
+}
+
+.img-shadow{
+  box-shadow: 3px 3px 10px;
+  border: 5px solid white;
+}
+.overscroll-bio{
+  text-align: left;
+  font-size: 3rem;
+  width: 100%;
+  height: 60vh;
+  overflow-y: scroll;
+  padding: 2%;
+}
+.overscroll-bio p{
+  background: white;
+  font-size: 0.9rem;
+}
+
+
+#contact-section .container-fluid {
+  padding: 0;
+}
+
+.contact-form {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin-top: 7%;
+  border: 1px solid;
+}
+
+.division {
+  background: red;
+  height: 100%;
+}
+.card-img-overlay{
+  text-align: left;
+  display: inline-block;
+}
+.btn{
+  background: #4FD3C4;
+}
+
+
+.divider{
+  text-align: center;
+}
