@@ -130,6 +130,15 @@ p {
 .dangal-filipino-banner-img {
   width: 100%;
 }
+@keyframes animLanding {
+  0% {
+    transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
 @keyframes animWrapper {
   0% {
     opacity: 0;
